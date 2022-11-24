@@ -1,0 +1,27 @@
+<svg width="156px" height="156px" id="icon-shadow-primary" viewBox="0 0 156 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon__inner">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>benefit-data-protected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.213455264%" x2="50%" y2="99.747016%" id="linearGradient-benefit-data-protected">
+            <stop class="main-stop" offset="0%"></stop>
+            <stop class="alt-stop" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5" transform="translate(-1955.000000, -5131.000000)">
+            <g id="Benefits" transform="translate(1765.000000, 5131.000000)">
+                <g id="EXCELLENCE">
+                    <g id="items">
+                        <g id="benefit-data-protected" transform="translate(222.000000, 32.000000)">
+                            <g id="Group-6">
+                                <path d="M46,92 C91.6454167,92 92,71.4054167 92,46 C92,20.5945833 91.6454167,0 46,0 C0.354583333,0 0,20.5945833 0,46 C0,71.4054167 0.354583333,92 46,92 Z" id="Shape" fill="url(#linearGradient-benefit-data-protected)"></path>
+                                <path d="M46,47 C44.7529036,46.9854225 43.6286438,47.7489864 43.1824271,48.9136119 C42.7362104,50.0782375 43.062436,51.3975429 44,52.22 L44,55 C44,56.1045695 44.8954305,57 46,57 C47.1045695,57 48,56.1045695 48,55 L48,52.22 C48.937564,51.3975429 49.2637896,50.0782375 48.8175729,48.9136119 C48.3713562,47.7489864 47.2470964,46.9854225 46,47 L46,47 Z M56,39 L56,35 C56,29.4771525 51.5228475,25 46,25 C40.4771525,25 36,29.4771525 36,35 L36,39 C32.6862915,39 30,41.6862915 30,45 L30,59 C30,62.3137085 32.6862915,65 36,65 L56,65 C59.3137085,65 62,62.3137085 62,59 L62,45 C62,41.6862915 59.3137085,39 56,39 Z M40,35 C40,31.6862915 42.6862915,29 46,29 C49.3137085,29 52,31.6862915 52,35 L52,39 L40,39 L40,35 Z M58,59 C58,60.1045695 57.1045695,61 56,61 L36,61 C34.8954305,61 34,60.1045695 34,59 L34,45 C34,43.8954305 34.8954305,43 36,43 L56,43 C57.1045695,43 58,43.8954305 58,45 L58,59 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
