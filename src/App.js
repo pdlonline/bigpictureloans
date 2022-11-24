@@ -4,6 +4,10 @@ import FormLoan from './components/form';
 import Menu from './components/menu';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
+import AdvantagesSection from './components/sections/advantages';
+import WhyUs from './components/sections/whyUs';
+import StepSection from './components/sections/step';
+import HaveQuestionSection from './components/sections/haveQuestion';
 function App() {
   const [dataForm, setDataForm] = useState({
     email: "",
@@ -26,7 +30,7 @@ function App() {
     console.log(dataForm)
   }
   return (
-    <div>
+    <div className='!pb-10'>
       {/* <Menu /> */}
       <Banner />
       <div className='absolute w-full top-0 z-50'>
@@ -47,6 +51,10 @@ function App() {
           </div>
         </div>
       </div>
+      <AdvantagesSection />
+      <WhyUs />
+      <StepSection />
+      <HaveQuestionSection/>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({text}) => {
   return (
-    <button className='butPink bg-pink'>
+    <button className='butPink bg-pink w-[250px]'>
       {text}
     </button>
   )

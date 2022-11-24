@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     colors:{
       'pink':{
+        light:"#f6a",
         DEFAULT:"#ff0080"
       },
       'white': {
@@ -17,6 +18,7 @@ module.exports = {
         DEFAULT: '#0e7490',
         dark: '#012466',
         xDark:'#0178b2',
+        xxDark:'#013c99',
       },
     }
     

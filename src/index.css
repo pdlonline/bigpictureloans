@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -79,4 +79,22 @@ select {
 }
 input:focus {
   outline: none;
+}
+.image_why_us {
+  display: block;
+  position: absolute;
+  top: 1.25rem;
+  left: 1rem;
+  width: 95%;
+  height: 100%;
+  border-radius: 1.25rem;
+  background: linear-gradient(125.95deg, #ff0080 10.95%, #01b6fa 100%),
+    linear-gradient(222.34deg, #ff0080 12.99%, #00ffe0 87.21%),
+    linear-gradient(130.22deg, #8fa600 18.02%, #01b6fa 100%);
+  background-blend-mode: screen, color-dodge, color-dodge, normal;
+  box-shadow: 0 24px 20px -10px rgb(1 182 250 / 40%);
+  opacity: 0.8;
+}
+.myShadow{
+  box-shadow: 0 8px 40px -4px rgb(76 0 47 / 20%);
 }
