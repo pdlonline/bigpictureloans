@@ -8,6 +8,8 @@ import AdvantagesSection from './components/sections/advantages';
 import WhyUs from './components/sections/whyUs';
 import StepSection from './components/sections/step';
 import HaveQuestionSection from './components/sections/haveQuestion';
+import MoneySection from './components/sections/money';
+import Footer from './components/footer';
 function App() {
   const [dataForm, setDataForm] = useState({
     email: "",
@@ -30,15 +32,15 @@ function App() {
     console.log(dataForm)
   }
   return (
-    <div className='!pb-10'>
+    <div>
       {/* <Menu /> */}
       <Banner />
       <div className='absolute w-full top-0 z-50'>
         <Menu />
-        <div className=' myContainer grid grid-cols-2'>
+        <div className=' myContainer grid grid-cols-1 lg:grid-cols-2 !pt-36 lg:!pt-1'>
           <div></div>
           <div>
-            <div className='text-[2.875rem] font-black text-center w-[75%] mx-auto my-10'>
+            <div className='text-2xl lg:text-[2.875rem] leading-[1.5] font-black text-center w-[75%] mx-auto mb-6'>
               Get Your Personal Loan Up To $5000
             </div>
             <div>
@@ -54,7 +56,9 @@ function App() {
       <AdvantagesSection />
       <WhyUs />
       <StepSection />
-      <HaveQuestionSection/>
+      <HaveQuestionSection />
+      <MoneySection />
+      <Footer/>
     </div>
   );
 }

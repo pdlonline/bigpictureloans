@@ -21,7 +21,7 @@ const FormLoan = ({ onChangeDataForm, goToPosts, dataForm }) => {
   ]
   return (
     <form onChange={onChangeDataForm}>
-      <div className='flex flex-col p-8 bg-white rounded-xl w-full gap-6 z-100 drop-shadow-lg'>
+      <div className='flex flex-col p-8 bg-white rounded-xl w-full gap-6 z-100 myShadow'>
         <div className='relative'>
           <span className='text-sm absolute top-2 left-3 font-bold z-10 uppercase text-blue-xDark'>Loan Amount</span>
           <span className='absolute right-2 z-10 top-5 text-blue-light'>
@@ -40,7 +40,7 @@ const FormLoan = ({ onChangeDataForm, goToPosts, dataForm }) => {
           </select>
         </div>
 
-        <div className='flex gap-6 w-full'>
+        <div className='flex gap-6 w-full flex-wrap lg:flex-nowrap'>
           <div className='border p-3 rounded-md border-blue-light relative  h-[70px] bg-white w-full'>
             <span className='text-sm absolute top-2 left-3 font-bold z-10 uppercase text-blue-xDark'>
               YOUR EMAIL ADDRESS
@@ -55,7 +55,7 @@ const FormLoan = ({ onChangeDataForm, goToPosts, dataForm }) => {
           </div>
         </div>
 
-        <button onClick={goToPosts} className='bg-pink uppercase text-white w-full rounded-md h-[80px] font-bold text-xl'>
+        <button onClick={goToPosts} className='button uppercase text-white w-full rounded-md h-[80px] font-bold text-xl'>
           Get Started
         </button>
       </div>

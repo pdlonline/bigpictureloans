@@ -3,8 +3,8 @@ import React from 'react'
 
 const AdvantagesCard = ({ title, content, image }) => {
   return (
-    <div className='flex flex-col gap-3 p-10 w-full pt-[150px] bg-white drop-shadow-lg rounded-xl relative'>
-      <div className='absolute left-0 top-0'>
+    <div className={`flex flex-col gap-3 p-10 w-full pt-[150px] bg-white myShadow rounded-xl relative h-full`}>
+      <div className='absolute left-0 top-0 drop-shadow-lg'>
         <img src={image} alt="" />
       </div>
       <div className='font-bold text-xl'>{title}</div>

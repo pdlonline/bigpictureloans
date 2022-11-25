@@ -72,7 +72,7 @@ agreement.
 const HaveQuestionSection = () => {
   return (
     <div className='myContainer'>
-      <div className='text-5xl text-center'>HaveQuestionSection</div>
+      <div className='text-4xl font-black text-center'>Have a questions</div>
       <div>
         {mockData.map((item, key) => (
           <div key={key}>

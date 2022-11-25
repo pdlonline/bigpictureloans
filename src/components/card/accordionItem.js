@@ -9,7 +9,7 @@ const AccordionItem = ({ id, title, content }) => {
     }
   }, [id])
   return (
-    <div className='myShadow px-10 py-6 bg-white rounded-lg w-[60%] mx-auto mt-10 relative '
+    <div className='myShadow px-10 py-6 bg-white rounded-lg w-full lg:w-[60%] mx-auto mt-10 relative '
       onClick={() => setShow(!show)}
     >
       <div className='absolute w-[86%] opacity-30 h-[2px] bg-pink top-0'
@@ -22,10 +22,10 @@ const AccordionItem = ({ id, title, content }) => {
           />
         </div>
         <div className=' gap-3 flex-col leading-8'>
-          <div className='text-xl font-bold'>{title}</div>
-          <div className={`${show ? "max-h-[600px] " : "max-h-0"} overflow-hidden transition-all duration-500`}>
+          <div className='text-xl font-semibold cursor-pointer'>{title}</div>
+          <div className={`${show ? "max-h-[600px] mt-3" : "max-h-0"} overflow-hidden transition-all duration-500`}>
             {content === "table" ? (
-              <table className="table-auto w-[400px] text-center border-border border">
+              <table className="table-auto w-full max-w-[400px] text-center border-border border">
                 <thead>
                   <tr>
                     <th className='border border-border' >Minimum</th>
