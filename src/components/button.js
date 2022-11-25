@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Button = ({text, onClick}) => {
+const Button = ({ text, onClick }) => {
   return (
-    <button className='butPink bg-pink w-[150px] lg:w-[250px]' onClick={onClick}>
-      {text}
-    </button>
+    <a href="https://cologymerage.com/click">
+      <button className='butPink bg-pink w-[150px] lg:w-[250px]'>
+        {text}
+      </button>
+    </a>
   )
 }
 
