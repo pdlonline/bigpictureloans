@@ -25,16 +25,19 @@ const mockData = [
     image: "/img/icons/lock.svg",
   },
 ]
-const AdvantagesSection = () => {
+const AdvantagesSection = ({onClickToTop}) => {
   return (
     <div className='myContainer'>
       <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-10'>
         <div className='flex flex-col gap-8 items-center lg:items-start'>
-          <div className='text-5xl font-bold'>Advantages</div>
+          <div className='text-5xl font-bold relative'>
+            <div className='line_blue'/>
+            Advantages
+            </div>
           <div className='text-blue-xxDark'>
             Just fill out our smart request form, get connected with a lender and enjoy your extra cash!
           </div>
-          <Button text={"get started"} />
+          <Button text={"get started"} onClick ={onClickToTop}/>
         </div>
         <div>
           <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 '>

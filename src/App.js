@@ -29,7 +29,13 @@ function App() {
       ...dataForm,
       [e.target.name]: e.target.value
     })
-    console.log(dataForm)
+  }
+  const onClickToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    })
   }
   return (
     <div>
@@ -53,12 +59,20 @@ function App() {
           </div>
         </div>
       </div>
-      <AdvantagesSection />
-      <WhyUs />
+      <AdvantagesSection
+        onClickToTop={onClickToTop}
+      />
+      <WhyUs
+        onClickToTop={onClickToTop}
+      />
       <StepSection />
       <HaveQuestionSection />
-      <MoneySection />
-      <Footer/>
+      <MoneySection
+        onClickToTop={onClickToTop}
+      />
+      <Footer
+        onClickToTop={onClickToTop}
+      />
     </div>
   );
 }

@@ -72,7 +72,14 @@ agreement.
 const HaveQuestionSection = () => {
   return (
     <div className='myContainer'>
-      <div className='text-4xl font-black text-center'>Have a questions</div>
+      <div className='text-4xl font-black text-center relative '>
+        <div className='relative w-fit  mx-auto'>
+          <div className='w-[190px] absolute h-1 bg-[#01b6fa] top-4 left-[-220px]' />
+          Have a questions
+          <div className='w-[190px] absolute h-1 bg-[#01b6fa] top-4 right-[-220px]' />
+        </div>
+
+      </div>
       <div>
         {mockData.map((item, key) => (
           <div key={key}>
@@ -84,7 +91,7 @@ const HaveQuestionSection = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div >
   )
 }
 

@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ onClickToTop }) => {
 
   return (
-    <div className='bg_footer py-10 border-t-8 border-pink'>
-      <div className='myContainer flex flex-col gap-10 text-white'>
-        <div className='flex justify-center items-center gap-3 text-white'>
+    <div className='bg_footer !py-10 border-t-8 border-pink'>
+      <div className='myContainer flex flex-col gap-10 text-white !pb-0'>
+        <div className='flex justify-center items-center gap-3 text-white cursor-pointer'
+          onClick={onClickToTop}
+        >
           <div>
             <img src="/img/icons/logo.svg" alt="" />
           </div>
