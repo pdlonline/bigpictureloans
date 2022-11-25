@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <div>
       <div className='myContainer flex justify-between items-center py-6 !pt-3'>
-        <div className='flex justify-between items-center gap-3 '>
+        <div className='flex justify-between items-center gap-3'>
           <div>
           <img src="/img/icons/logo.svg" alt="" />
           </div>
@@ -13,8 +13,6 @@ const Menu = () => {
         <div>
           <Button text = "Get Start" />
         </div>
-
-     
       </div>
     </div>
   )
